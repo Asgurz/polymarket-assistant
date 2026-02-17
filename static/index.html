@@ -655,7 +655,7 @@ document.getElementById('btn-simulate').addEventListener('click', async () => {
 
 function renderSimResults(res, upEntry, dnEntry) {
   const wrap = document.getElementById('sim-results');
-  wrap.style.display = '';
+  wrap.style.display = 'block';
 
   const totalCost    = upEntry + dnEntry;
   const impliedEdge  = (1 - totalCost) * 100;
